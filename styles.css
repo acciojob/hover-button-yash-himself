@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+#btn{
+	width:200px;
+	height:50px;
+	background:black;
+	color:white;
+	font-size:23px;
+	font-weight:700;
+	border-radius:5px;
+	cursor:pointer;
+	transition:background .5s;
+	border:none;
+}
+#btn:hover{
+	background:yellow;
+	color:black;
+	border-radius:30px;
+}
